@@ -1,0 +1,55 @@
+form {
+    justify-content:  center;
+}
+
+.container {
+    margin-top: 3%;
+    border: 1px;
+}
+
+.form-control {
+    padding: 10px;
+    font-family: monospace;
+    width: 25%;
+}
+
+form {
+    font-family: monospace;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    border: springgreen;
+    background-color: seagreen;
+    border-radius: 5%;
+    padding: 10px;
+    width: 85px;
+}
+
+
+
+table {
+    justify-content: center;
+    padding: 25px;
+    width: 45%;
+    height: 45%;
+}
+
+tr {
+    text-align: center;
+    padding: 10px;
+}
+
+td,th {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.delete {
+    background-color: red;
+}
