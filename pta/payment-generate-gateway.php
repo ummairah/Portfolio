@@ -14,9 +14,6 @@ $some_data = array(
     'billPriceSetting'=>1,
     'billPayorInfo'=>1,
     'billAmount'=>$rmx100,
-    // 'billReturnUrl'=>'http://www.khirulnizam.com',
-    // 'billCallbackUrl'=>'',
-    // 'billExternalReferenceNo'=>'',
     'billTo'=>$nama,
     'billEmail'=>$email,
     'billPhone'=>$telefon,
@@ -37,6 +34,5 @@ $some_data = array(
 ?>
 <!--SEND USER TO TOYYIBPAY PAYMENT-->
 <script type="text/javascript">
-    //redirect to payment gateway
    window.location.href="https://toyyibpay.com/<?php echo $billcode;?>"; 
  </script>
