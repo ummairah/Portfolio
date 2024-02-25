@@ -1,0 +1,23 @@
+@media print {
+    body {
+        font-size: 12pt;
+        color: #000;
+        /* Add other print-specific styles here */
+    }
+
+    /* Hide elements not meant for printing */
+    .no-print {
+        display: none;
+    }
+
+    /* Additional styling for print layout */
+    .print-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .print-footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+}

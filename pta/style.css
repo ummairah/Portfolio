@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.banner {
+    width: 100vw;
+    height: 70vh;
+    filter: brightness(0.7);
+    background-size: cover;
+
+}
+
+.card-group {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+    /* dashboard css */
+    .nav-pills li a:hover {
+        background-color: seagreen;
+    }
+
+    
